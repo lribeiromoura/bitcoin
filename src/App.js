@@ -9,33 +9,39 @@ import Ethereum from './Components/Ethereum';
 function App() {
   return (
     <div className="App">
-     <div>     
-            <body>
-                <div class="container">
-                    <div class="row center quadro">
-                    
-                        <div class="card-moeda">
-                        <Bitcoin></Bitcoin>
-                        </div>
+        <div>
+            <div className="container">
+                <div className="row center quadro">
 
-                        <div class="card-moeda">
-                            <Bcash></Bcash>                        
-                        </div>
+                    {/* Adding Bitcoin Component */}
+                    <div className="card-moeda">
+                    <Bitcoin></Bitcoin>
+                    </div>
 
-                        <div class="card-moeda">
-                            <Litecoin></Litecoin>
-                        </div>
-                    
-                        <div class="card-moeda">
-                            <Ripple></Ripple>
-                        </div>
-                        <div class="card-moeda">
-                            <Ethereum></Ethereum>
-                        </div>
-                        </div>
-                </div>     
-            </body>
-          </div>      
+                    {/* Adding Bcash Component */}
+                    <div className="card-moeda">
+                        <Bcash></Bcash>                        
+                    </div>
+
+                    {/* Adding Bcash Component */}
+                    <div className="card-moeda">
+                        <Litecoin></Litecoin>
+                    </div>
+                
+                    {/* Adding Bcash Component */}
+                    <div className="card-moeda">
+                        <Ripple></Ripple>
+                    </div>
+
+                    {/* Adding Bcash Component */}
+                    <div className="card-moeda">
+                        <Ethereum></Ethereum>
+                    </div>
+
+                    {/*Coins End*/}
+                </div>
+            </div>   
+        </div>      
     </div>
   );
 }

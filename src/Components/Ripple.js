@@ -43,11 +43,11 @@ export default class Ripple extends Component{
     render(){
         return(
             <div>
-                <div class="card oi" >
-                <div class="card-body">
+                <div className="card" >
+                <div className="card-body">
                 
-                    <div class="card-title">
-                    <img src={RippleLogo} class="coinlogo rounded"/>
+                    <div className="card-title">
+                    <img alt="ripple logo" src={RippleLogo} className="coinlogo rounded"/>
                     <h5>Ripple</h5>
                     <h5>
                     {

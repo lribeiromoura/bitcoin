@@ -43,11 +43,11 @@ export default class Litecoin extends Component{
     render(){
         return(
             <div>
-             <div class="card oi" >
-                <div class="card-body">
+             <div className="card" >
+                <div className="card-body">
                 
-                    <div class="card-title">
-                    <img src={LTCLogo} class="rounded coinlogo"/>
+                    <div className="card-title">
+                    <img alt="litecoin logo" src={LTCLogo} className="rounded coinlogo"/>
                     <h5>Litecoin</h5>
                     <h5>
                     {

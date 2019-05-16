@@ -43,11 +43,10 @@ export default class Bitcoin extends Component{
     render(){
         return(            
             <div>
-                <div class="card oi" >
-                <div class="card-body">
-                
-                    <div class="card-title">
-                    <img src={BTCLogo} class="coinlogo rounded"/>
+                <div className="card" >
+                <div className="card-body">                
+                    <div className="card-title">
+                    <img src={BTCLogo} alt="Logo Bitcoin" className="coinlogo rounded"/>
                     <h5>BitCoin</h5>
                     <h5>
                     {

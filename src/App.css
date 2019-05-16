@@ -8,11 +8,12 @@ body{
   display: flex;
   justify-content: space-around;
 } 
+
 .card-moeda{
   margin: 10px;
 }
 
-.oi{
+.card{
   width: 19rem;
 }
 

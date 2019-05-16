@@ -43,11 +43,11 @@ export default class Ethereum extends Component{
     render(){
         return(
             <div>
-             <div class="card oi" >
-                <div class="card-body">
+             <div className="card" >
+                <div className="card-body">
                 
-                    <div class="card-title">
-                    <img src={ETCLogo} class="coinlogo rounded"/>
+                    <div className="card-title">
+                    <img alt="ethereum logo" src={ETCLogo} className="coinlogo rounded"/>
                     <h5>Ethereum</h5>
                     <h5>
                     

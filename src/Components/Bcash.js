@@ -43,12 +43,12 @@ export default class Bcash extends Component{
     render(){
         return(
             <div>
-            <div class="card oi" >
-                <div class="card-body">
+            <div className="card" >
+                <div className="card-body">
                 
-                    <div class="card-title">
+                    <div className="card-title">
 
-                    <img src={BcashLogo} class="coinlogo rounded"/>
+                    <img alt="bcash logo" src={BcashLogo} className="coinlogo rounded"/>
                     <h5>Bcash</h5>
                     <h5>
                     {
